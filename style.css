@@ -5,8 +5,8 @@
 * {
   font-family: Regular-Open-Font;}
 main {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 5%;}
 p {
   color: white;
@@ -14,8 +14,7 @@ p {
 .blank {
   height: 50px;}
 .external-link {
-  padding-left: 1%;
-  padding-right: 1%;}
+  padding: 1%;}
 .external-link:hover {
   background-color: green;}
 .download-button{
@@ -24,11 +23,11 @@ p {
 header {
   background-color: #7A7676;
   color: white;
-  padding-left: 1%;
-  padding-top: 1%;}
+padding-top: 1%;}
 h1 {
-  margin-top: 0px;
-  margin-left: 1%;}
+  margin-top: 1%;
+  margin-left: 1%;
+  padding-bottom: 1%;}
 .text_descr {
   text-align: justify;
   border-top-left-radius: 25px;
@@ -42,13 +41,14 @@ body {
   background-repeat: repeat;
   margin-top: 0px;
   margin-left:0px;
-  margin-right: 0px;}
+  margin-right: 0px;
+  margin-bottom: 0px;}
 .download-button{
   float:right;
   padding: 1%;
   margin:1.5%;}
 #external-links {
-  padding-bottom: 1%;}
+  margin-bottom: 1%;}
 #slides {
   position: relative;
   height: 100%;
@@ -78,5 +78,4 @@ body {
   color: white;
   margin-top: 1%;
   border-collapse: separate;
-  border-spacing: 30px;
-  margin-top: 25%;}
+  border-spacing: 30px;}
