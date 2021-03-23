@@ -7,3 +7,11 @@ function nextSlide(){
   currentSlide = (currentSlide+1)%slides.length;
   slides[currentSlide].className = 'slide showing';
 }
+
+function resize(id1,id2){
+  var yourImg = document.getElementById(id1);
+  if(yourImg && yourImg.style) {
+    yourImg.style.height = '100px';
+    yourImg.style.width = '200px';
+}
+}
