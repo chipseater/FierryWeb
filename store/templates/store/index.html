@@ -1,0 +1,12 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block content %}
+<div class="content">
+<h2>Notre Boutique</h2>
+<ul>
+  {% for Plane in planes %}
+      <li class="link-to-detail"><a href="/store/{{ Plane.name }}" class="link-to-detail">{{ Plane.name }}</a></li>
+  {% endfor %}
+</ul>
+</div>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% load static from static %}
+<!DOCTYPE>
+<html lang="fr">
+    <head>
+        <title>Fiery Sky</title>
+        <link type="text/css" rel="stylesheet" href={% static 'style.css'%}>
+    </head>
+    <body>
+        <header>
+            <div id="external-links">
+                <a class="external-link">Discord</a>
+                <a class="external-link">YouTube</a>
+                <a class="external-link">TeamSpeak</a>
+                <a class="external-link">Wiki</a>
+                <a class="external-link" href="/store">Boutique</a>
+                <a class="download-button">Télécharger</a>
+                <a href="../" class="Home"><h1>Fiery Sky</h1></a>
+            </div>
+        </header>
+        <main>
+            {% block  content %}{% endblock %}
+        </main>
+        <footer>
+            <table id="footer">
+                <tr>
+                    <td>© Copyright 2021, tous droits réservés</td>
+                    <td><a class="site_map">Carte du site</a></td>
+                    <td><a class="privacy_policy">Politique de confidenialité</a></td>
+                </tr>
+                <tr>
+                    <td><a class="terms_of_use">Conditions d'untilisation</a></td>
+                    <td><a class="contact_us">Contactez-nous</a></td>
+                    <td><a class="changelog">Changelog</a></td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>
